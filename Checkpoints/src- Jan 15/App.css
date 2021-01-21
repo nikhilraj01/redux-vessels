@@ -1,21 +1,17 @@
 .selected-vessel {
-  position: fixed;
-  top: 0;
   float: left;
   padding-left: 10px;
   margin-top: 10px;
 }
 .shipment-details {
-  position: fixed;
-  top: 0;
   left: 1000px;
+  position: absolute;
   padding-left: 20px;
   height: 93%;
 }
 .container-table {
   left: 310px;
-  top: 0;
-  height: max-content;
+  height: 97%;
   border-left: 2px black solid;
   border-right: 2px black solid;
   padding-left: 20px;
@@ -42,18 +38,13 @@ h3 {
 }
 button {
   width: 100px;
-  height: 35px;
+  height: 21px;
   border-radius: 8px;
   border: 1.5px black solid;
   cursor: pointer;
+  background-color: rgb(225, 225, 225);
   color: black;
 }
 button:hover {
   opacity: 0.4;
-}
-.add {
-  background-color: rgb(225, 225, 225);
-}
-.dont-add {
-  background-color: rgb(121, 121, 121);
 }

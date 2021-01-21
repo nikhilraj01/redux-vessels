@@ -1,0 +1,8 @@
+const actions = {
+  SELECT_VESSEL: "SELECT_VESSEL",
+  SET_VESSEL: "SET_VESSEL",
+  ADD_CONTAINER: "ADD_CONTAINER",
+  UPDATE_SHIPMENT: "UPDATE_SHIPMENT",
+};
+
+export default actions;
